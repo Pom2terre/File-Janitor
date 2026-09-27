@@ -216,3 +216,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# File Janitor local state and patch artifacts
+.venv/
+.file_janitor/
+*.db
+*.sqlite
+*.sqlite3
+*.orig
+*.rej
+*.swp
+.env.*
